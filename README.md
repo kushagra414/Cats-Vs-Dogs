@@ -28,7 +28,7 @@ __URL for dataset : https://www.kaggle.com/c/dogs-vs-cats/data__
 
 - I have used Convolutional Neural Network to classify images.
 - Here is the architecture of the model.
-- ![CNN Architecture](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/CNN_model._Architecture.PNG)
+- ![CNN Architecture](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/CNN_model._Architecture.PNG)<br />
 - The model has loss: 0.0679, acc: 0.9750,  validation loss: 0.3017 - validation acc: 0.9016
 - After Training I saved the model so that I could use it without training the model again and again
 - Refer to Cat Vs Dog.ipynb to checkout all the details and code.
@@ -37,8 +37,8 @@ __URL for dataset : https://www.kaggle.com/c/dogs-vs-cats/data__
 
 - I developed the GUI using Python inbuilt module Tkinter.
 
-![Starting Gui](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/1Starting_Window.PNG)
-GUI
+![Starting Gui](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/1Starting_Window.PNG)<br />
+__GUI of the Application__
 
 - There are 4 buttons on the window
   - Browse files - This button can be used if you want to select multiple images.
@@ -49,14 +49,14 @@ GUI
   
   - Predict Accuracy - This button is used after selecting the directory of images(This is used after Browse directory).The directory names should be cats and dogs as shown in screenshot.
 
-![Browse files](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/2Browse_files.PNG)
-Browse files Button Action
-![Predict](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/3Predict.PNG)
-Predict Button Action
-![Browse Directory](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/4Browse_Directory.PNG)
-Browse Directory Button Action
-![Predict Accuracy](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/5Predict_Accuracy.PNG)
-Predict Accuracy Button Actio 
+![Browse files](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/2Browse_files.PNG)<br />
+__Browse files Button Action__
+![Predict](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/3Predict.PNG)<br />
+__Predict Button Action__
+![Browse Directory](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/4Browse_Directory.PNG)<br />
+__Browse Directory Button Action__
+![Predict Accuracy](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/5Predict_Accuracy.PNG)<br />
+__Predict Accuracy Button Action__
 
 ## Preprocess Images
 
