@@ -50,13 +50,13 @@ __GUI of the Application__
   - Predict Accuracy - This button is used after selecting the directory of images(This is used after Browse directory).The directory names should be cats and dogs as shown in screenshot.
 
 ![Browse files](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/2Browse_files.PNG)<br />
-__Browse files Button Action__
+__Browse files Button Action__<br />
 ![Predict](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/3Predict.PNG)<br />
-__Predict Button Action__
+__Predict Button Action__<br />
 ![Browse Directory](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/4Browse_Directory.PNG)<br />
-__Browse Directory Button Action__
+__Browse Directory Button Action__<br />
 ![Predict Accuracy](https://github.com/kushagra414/Cats-Vs-Dogs/blob/master/screenshots/5Predict_Accuracy.PNG)<br />
-__Predict Accuracy Button Action__
+__Predict Accuracy Button Action__<br />
 
 ## Preprocess Images
 
