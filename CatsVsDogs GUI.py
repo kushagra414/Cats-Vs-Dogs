@@ -139,7 +139,7 @@ def predict_acc():
     from tensorflow.keras.preprocessing.image import ImageDataGenerator as IDG
     from tensorflow.keras import models
     
-    model = models.load_model('CatVsDogs.h5')
+    model = models.load_model('CatsVsDogs_model_saved//CatVsDogs.h5')
     
     generator = IDG(rescale=1/255.0)
     acc_generator = generator.flow_from_directory(dir_path,(300,400),class_mode='binary')
