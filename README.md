@@ -64,3 +64,15 @@ __Predict Accuracy Button Action__<br />
 - Every image is reshaped to 300x400 using cropping, padding and resizing.
 - The algorithm will work on any image size but due to random cropping/padding the actual image of cat or dog might get cropped.
 - The application will work best on 300x400 images, so I suggest strongly to resize the image to 300x400 pixels.
+
+## Executing the model
+
+- First make sure that all the pre-requisites are installed in your computer.
+- Then execute the 'CatsVsDogs GUI.py' using :-
+`python
+python 'CatsVsDogs GUI.py'
+`
+__OR__<br  />
+`python
+python3'CatsVsDogs GUI.py'
+`
