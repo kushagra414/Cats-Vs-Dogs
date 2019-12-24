@@ -71,8 +71,8 @@ __Predict Accuracy Button Action__<br />
 - Then execute the 'CatsVsDogs GUI.py' using :-
 `python
 python 'CatsVsDogs GUI.py'
-`
+`<br  />
 __OR__<br  />
 `python
 python3'CatsVsDogs GUI.py'
-`
+`<br  />
