@@ -68,7 +68,7 @@ __Predict Accuracy Button Action__<br />
 ## Executing the model
 
 - First make sure that all the pre-requisites are installed in your computer.
-- Then execute the 'CatsVsDogs GUI.py' using :-
+- Then execute the 'CatsVsDogs GUI.py' using :-<br  />
 `python
 python 'CatsVsDogs GUI.py'
 `<br  />
