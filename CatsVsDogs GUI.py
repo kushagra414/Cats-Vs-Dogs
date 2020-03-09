@@ -69,7 +69,7 @@ def submit():
     from tkinter import messagebox
     import os
     
-    model = models.load_model('CatsVsDogs_model_saved//CatVsDogs.h5')
+    model = models.load_model('CatsVsDogs_model_saved/CatVsDogs.h5')
     
     no_of_images = len(new_path)
     x = np.zeros((no_of_images,300,400,3))
@@ -87,7 +87,7 @@ def submit():
                   '\nProbability of being a dog ='+str(predicted_dog)).pack()
         win.geometry("1000x500")
         os.remove(path)
-    enter_path.delete(0,tk.END)
+    enter_path.delete(0,END)
 
 
 # In[6]:
@@ -139,7 +139,7 @@ def predict_acc():
     from tensorflow.keras.preprocessing.image import ImageDataGenerator as IDG
     from tensorflow.keras import models
     
-    model = models.load_model('CatsVsDogs_model_saved//CatVsDogs.h5')
+    model = models.load_model('CatsVsDogs_model_saved/CatVsDogs.h5')
     
     generator = IDG(rescale=1/255.0)
     acc_generator = generator.flow_from_directory(dir_path,(300,400),class_mode='binary')

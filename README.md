@@ -61,9 +61,7 @@ __Predict Accuracy Button Action__<br />
 ## Preprocess Images
 
 - To show real-time results to used I implemented preprocessing of images so that the algorithm is able to work on all image sizes.
-- Every image is reshaped to 300x400 using cropping, padding and resizing.
-- The algorithm will work on any image size but due to random cropping/padding the actual image of cat or dog might get cropped.
-- The application will work best on 300x400 images, so I suggest strongly to resize the image to 300x400 pixels.
+- Every image is reshaped to 300x400 resizing.
 
 ## Executing the model
 
